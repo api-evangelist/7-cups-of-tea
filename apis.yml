@@ -1,7 +1,30 @@
 aid: 7-cups-of-tea
-name: 7 Cups of Tea
-description: 7 Cups of Tea is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/7-cups-of-tea.png
+name: 7 Cups
+description: >-
+  7 Cups is an online emotional support and mental health platform founded in
+  July 2013 by psychologist Glen Moriarty (Y Combinator S13) and based in Palo
+  Alto, California. It connects people seeking help with trained volunteer
+  "listeners" for free, anonymous, 24/7 one-to-one active-listening chat, and
+  also offers community forums, group support chat rooms, self-help growth
+  paths, and affordable online therapy with licensed therapists via messaging.
+  The service reports reaching tens of millions of people across roughly 190
+  countries, supported by hundreds of thousands of trained volunteer listeners,
+  and sells organizational solutions for schools, employers, and health plans.
+  7 Cups does not publish a public developer API or developer portal; this
+  profile captures its public identity and web properties for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/7-cups-of-tea/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
@@ -12,9 +35,42 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Mental Health
+- Emotional Support
+- Online Therapy
+- Peer Support
+- Counseling
+- Wellbeing
+- Community
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/7-cups-of-tea-domain-security.yml
+- type: Website
+  url: https://www.7cups.com/
+- type: About
+  url: https://www.7cups.com/about/
+- type: Support
+  name: Help Center
+  url: https://help.7cups.com/hc/en-us
+- type: Pricing
+  url: https://help.7cups.com/hc/en-us/articles/360026079134-How-Much-Does-7-Cups-Online-Therapy-Cost
+- type: TermsOfService
+  url: https://www.7cups.com/Documents/TermsOfService/
+- type: PrivacyPolicy
+  url: https://www.7cups.com/Documents/PrivacyPolicy
+- type: GitHubOrganization
+  url: https://github.com/7Cups
+- type: Solutions
+  name: Solutions for Organizations
+  url: https://www.7cups.com/solutions/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
